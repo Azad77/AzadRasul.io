@@ -1,1 +1,26 @@
 Hello World from Azad Rasul. This is my testing website on GitHub.
+################
+  
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>AzadRasul</title>
+  <LINK href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<img src="forkit.gif" id="octocat" alt="" />
+
+<!-- Feel free to change this text here -->
+<p>
+  azad977@gmail.com
+</p>
+<p>
+  Azad made a change
+</p>
+
+</body>
+</html>
