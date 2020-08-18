@@ -1,4 +1,2 @@
-Hello World from Azad Rasul. This is my testing website on GitHub.
-I am the Director of Digital Scholarship and Research Engagement at Oregon Health & Science University, and the co-founder of the Metrics Toolkit and Awesome Libraries. My work and research is focused on enabling the inclusive creation, reproducibility, accessibility, and impact of digital scientific materials.
-
-See my ORCID record to learn more about my work. You can contact me via rchampieux@gmail.com or twitter.
+I am lecturer at Soran University. I use programming languages, remote sensing and GIS methods and techniques to study LST, urban environment, earth observation and natural disasters. Prospective collaborators could send email to azad.rasul@soran.edu.iq. My LinkedIn Profile: https://www.linkedin.com/in/azad-rasul-1860abb1/
+See my [https://orcid.org/0000-0001-5141-0577](ORCID) record to learn more about my work.
