@@ -1,0 +1,15 @@
+# Site navigation links
+- title: Home
+  url: /
+
+- title: Remote Sensing
+  url: /2020-08-14-remote-sensing/
+
+- title: My Resume
+  url: /2020-08-14-my-resume/
+
+- title: Posts
+  url: /2020-08-18-How-to-write-post-in-github-pages/
+
+- title: About
+  url: /about/
