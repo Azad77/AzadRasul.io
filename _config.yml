@@ -10,7 +10,7 @@ baseurl: "AzadRasul" # the subpath of your site, e.g. /blog
 collections:
   my_collection:
     output: true
-    permalink: /:collection/:name
+ #   permalink: /:collection/:name
 #url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Azad77Rasul
 github_username:  Azad77
