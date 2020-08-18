@@ -3,4 +3,4 @@ and my [ORCID](https://orcid.org/0000-0001-5141-0577) record to learn more about
 
 #![pythocat](https://octodex.github.com/images/pythocat.png)
 <img src="https://octodex.github.com/images/pythocat.png"
-height="300">
+height="200">
