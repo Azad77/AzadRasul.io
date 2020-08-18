@@ -2,8 +2,9 @@
 layout: post
 title:  "My Resume"
 date:   2020-08-14 20:39:33 +0300
-categories: jekyll update
-author: "Dr Azad Rasul"
+categories: jekyll
+permalink: "/my-url/"
+Author: "Azad Rasul"
 ---
 
 AZAD RASUL<br/>
