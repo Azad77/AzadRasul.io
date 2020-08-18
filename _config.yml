@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
 
 
 
@@ -7,18 +7,18 @@ email: azad977@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 #This is Remote Sensing and GIS website.
 baseurl: "AzadRasul" # the subpath of your site, e.g. /blog
-url: "https://azad77.github.io/AzadRasul.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Azad77Rasul
 github_username:  Azad77
 
 # Build settings
-#theme: minima
+theme: minima
 plugins:
   - jekyll-feed
-defaults: 
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 
