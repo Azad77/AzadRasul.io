@@ -1,0 +1,14 @@
+{% for post in site.pages %}
+<li><a href="{{ post.url }}">{{post.title}}</a></li>
+{% endfor %}
+{% for post in site.posts %}
+<li><a href="{{ post.url }}">{{post.title}}</a></li>
+{% endfor %}
+
+
+
+{% for file in site.static_files %}
+  {% if file.image %}
+     <img src="{{file.path}}" alt="{file.name}">
+  {% endif %}
+{% endfor %}
