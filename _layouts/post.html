@@ -1,0 +1,12 @@
+---
+layout: "wrapper"
+author: "Dr. Azad Rasul"
+---
+{% for post in site.posts %}
+   <li><a style="{% if page.url == post.url %}color:green;{% endif %}" href="{{ post.url }}"> {{ post.title }}</a></li>
+{% endfor %}
+<h2>{{ page.title }}</h2>
+<h3>{{ page.author }}</h3>
+<hr>
+
+{{ content }}
