@@ -5,3 +5,5 @@ defaults:
     values:
       layout: "default"
 permalink: /:categories/:year/:month/:day/:title:output_ext
+plugins:
+  - jekyll-coffeescript
