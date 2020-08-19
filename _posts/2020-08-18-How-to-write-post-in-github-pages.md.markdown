@@ -2,7 +2,6 @@
 layout: default
 title:  "How to write post in github pages"
 date:   2020-08-14 20:39:33 +0300
-categories: jekyll
 permalink: "/my-url/"
 Author: "Azad Rasul"
 ---
