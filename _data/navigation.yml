@@ -2,14 +2,14 @@
 - title: Home
   url: /
 
-- title: Remote Sensing
-  url: /2020-08-14-remote-sensing/
+- title: publications
+  url: /Resume1/
 
-- title: My Resume
-  url: /2020-08-14-my-resume/
+- title: Resume
+  url: /Resume/
 
-- title: Posts
-  url: /2020-08-18-How-to-write-post-in-github-pages/
+- title: post
+  url: /post/
 
 - title: About
   url: /about/
