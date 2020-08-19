@@ -1,15 +1,19 @@
-# Site navigation links
-- title: Home
-  url: /
+# _data/navigation.yml
 
-- title: publications
-  url: /Resume1/
+primary:
+  - text: Documentation
+    href: /docs/
+  - text: Support
+    href: /help/
+    class: highlight
+  - text: "18F"
+    href: https://18f.gsa.gov
+    external: true
 
-- title: Resume
-  url: /Resume/
+  # link objects with a 'links' field will be presented as
+  # collapsible link lists. The 'links' field can either be
+  # a reference to another link list in this file, or
+  # a literal list.
 
-- title: post
-  url: /post/
-
-- title: About
-  url: /about/
+  - text: Section title
+    links: <links>
