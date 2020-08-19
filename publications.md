@@ -1,5 +1,6 @@
 ---
-layout: resume
+layout: post
+title: publications
 ---
 ### MY PUBLICATIONS
 *	Rasul, A.; Balzter, H., 2020, “Relationship between monthly climatic variables and worldwide confirmed COVID-19 cases”, preprint. <https://dx.doi.org/10.2139/ssrn.3626108>
