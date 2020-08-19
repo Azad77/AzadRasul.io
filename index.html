@@ -1,14 +1,37 @@
----
-layout: archive
-author_profile: true
----
+<html>
+<head>
+	
+<title>Simple HTML Menu</title>
+<link rel="stylesheet" href="assets/css/layout.css" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
 
-{% include base_path %}
+<body>
+	
+<header role="banner">
+	<div class="wrap">
+		<a class="logo" href="/"><img src="assets/img/logo.png" alt="Site Name"></a>
+		<a href="javascript:void(0);" id="nav_btn">
+			<div id="nav_icon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			Menu
+		</a>
+		
+		<nav id="menu" role="navigation">
+			<ul>
+				<li><a href="#">Item 1</a></li>
+				<li><a href="#">Item 2</a></li>
+				<li><a href="#">Item 3</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="assets/js/scripts-min.js"></script>
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
+</body>
+</html>
