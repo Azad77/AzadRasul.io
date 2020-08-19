@@ -3,3 +3,10 @@ and my [ORCID](https://orcid.org/0000-0001-5141-0577) record to learn more about
 
 <img src="https://octodex.github.com/images/pythocat.png"
 height="300">
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="/github-pages-with-jekyll{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
