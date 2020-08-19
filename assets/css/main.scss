@@ -1,31 +1,11 @@
 ---
-sitemap: false
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
 ---
 
-/*
- *
- *  Minimal Mistakes
- *
- *  Designer: Michael Rose
- *  Twitter: https://twitter.com/mmistakes
- *
-*/
-
-// Partials
-$highlightcolor: {{ site.highlight-color }};
-$lowlightcolor: {{ site.lowlight-color }};
-@import "variables";
-@import "grid";
-@import "mixins";
-@import "normalize";
-@import "site";
 @import "typography";
-@import "pygments";
-//
-@import "elements";
-@import "forms";
-@import "page";
-@import "vendor/font-awesome/font-awesome";
-@import "vendor/magnific-popup/magnific-popup";
-//@import "vendor/google/fonts";
-@import "print";
+
+.content {
+  width: 45rem;
+  margin: 0 auto;
+}
