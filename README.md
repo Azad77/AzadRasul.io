@@ -6,7 +6,7 @@ HTML
 ```html
 <header role="banner">
 	<div class="wrap">
-		<a class="logo" href="/"><img src="assets/img/logo.png" alt="Site Name"></a>
+		<a class="logo" href="/"><img src="assets/logo.png" alt="Site Name"></a>
 		<a href="#menu" id="nav_btn">
 			<div id="nav_icon">
 				<span></span>
@@ -18,9 +18,9 @@ HTML
 		
 		<nav id="menu" role="navigation">
 			<ul>
-				<li><a href="#">Item 1</a></li>
-				<li><a href="#">Item 2</a></li>
-				<li><a href="#">Item 3</a></li>
+				<li><a href="/assets/css/main.scss">Item 1</a></li>
+				<li><a href="/assets/css/layout.css">Item 2</a></li>
+				<li><a href="/assets/css/style.scss">Item 3</a></li>
 			</ul>
 		</nav>
 	</div>
