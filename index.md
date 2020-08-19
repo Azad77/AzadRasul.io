@@ -2,4 +2,4 @@ I am a lecturer at Soran University. I use Python, R and Javascript programming 
 and my [ORCID](https://orcid.org/0000-0001-5141-0577) record to learn more about my work.
 
 <img src="https://octodex.github.com/images/pythocat.png"
-height="200">
+height="300">
