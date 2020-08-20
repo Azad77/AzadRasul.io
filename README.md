@@ -1,6 +1,4 @@
----
-title: README
----
+
 ##Read more about me and my works
 *[My google site](https://sites.google.com/view/azad-rasul/home?authuser=0)
 *[My Google Scolar](https://scholar.google.com/citations?user=E6b98RcAAAAJ&hl=en&authuser=1)
