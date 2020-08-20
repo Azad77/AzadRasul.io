@@ -1,5 +1,6 @@
 ---
 layout: resume
+title: Resume
 ---
 AZAD RASUL<br/>
 Department of Geography, Soran University<br/>     Soran, Erbil, 44008<br/>     9647507358574     azad.rasul@soran.edu.iq
