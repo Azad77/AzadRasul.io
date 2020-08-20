@@ -4,6 +4,7 @@ I am a lecturer at Soran University. I use Python, R and Javascript programming 
 and my [ORCID](https://orcid.org/0000-0001-5141-0577) record to learn more about my work.
 
 <img src="https://octodex.github.com/images/pythocat.png" style="width:200px; height:300px">
+<img src="https://software.nasa.gov/img/rstk/remote.sensing.png" style=" height:300px">
 <ul>
   {% for post in site.posts %}
     <li>
