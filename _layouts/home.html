@@ -1,45 +1,35 @@
 <!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<html lang='en'>
 <head>
-{% include _head.html %}
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <title>AzadRasul.io</title>
 </head>
+<body>
 
-<body class="home">
-
-{% include _browser-upgrade.html %}
-{% include _navigation.html %}
-
-
-
-<div id="main" role="main">
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-  </div>
-  <div id="index">
-    <h3><a href="{{ site.github.url}}/archive/">Recent Posts</a></h3>
-    {% for post in site.categories.blog limit:5 %}
-    <article>
-      {% if post.link %}
-        <h2 class="link-post"><a href="{{ site.github.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h2>
-      {% else %}
-        <h2><a href="{{ site.github.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
-      {% endif %}
-    </article>
-    {% endfor %}
-  </div><!-- /#index -->
-</div><!-- /#main -->
-
-<div class="footer-wrap">
-  <footer>
-    {% include _footer.html %}
-  </footer>
-</div><!-- /.footer-wrap -->
-
-{% include _scripts.html %}
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='https://azad77.github.io/AzadRasul.io/'><span>Home</span></a></li>
+   <li class='has-sub'><a href='https://azad77.github.io/AzadRasul.io/Resume/'><span>Resume</span></a>
+      <ul>
+         <li><a href='https://github.com/Azad77/AzadRasul.io/About'><span>About</span></a></li>
+         <li><a href='https://azad77.github.io/AzadRasul.io/Resume/'><span>Publications</span></a></li>
+         <li class='last'><a href='https://azad77.github.io/AzadRasul.io/Resume/'><span>Projects</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a href='https://github.com/Azad77/AzadRasul.io/About'><span>Interests</span></a>
+      <ul>
+         <li><a href='https://azad77.github.io/AzadRasul.io/Resume/'><span>Remote Sensing</span></a></li>
+         <li class='last'><a href='https://azad77.github.io/AzadRasul.io/Resume/'><span>GIS</span></a></li>
+      </ul>
+   </li>
+   <li class='last'><a href='https://azad77.github.io/AzadRasul.io/README'><span>README</span></a></li>
+</ul>
+</div>
 
 </body>
-</html>
+<html>
