@@ -9,6 +9,24 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
    <title>Home</title>
+   <style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 </head>
 <body>
 
@@ -22,7 +40,17 @@
 </ul>
 </div>
 
-            
+ <div class="row">
+  <div class="column">
+    <img src="https://octodex.github.com/images/pythocat.png" image" style="max-width:27%;height:auto">
+  </div>
+  <div class="column">
+    <img src="https://software.nasa.gov/img/rstk/remote.sensing.png" style="max-width:100%;height:auto">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>           
 <img src="https://octodex.github.com/images/pythocat.png" alt="centered image" style="max-width:27%;height:auto">
 <img src="https://software.nasa.gov/img/rstk/remote.sensing.png" style="max-width:100%;height:auto">
 
